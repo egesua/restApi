@@ -11,7 +11,11 @@ import java.util.Map;
 @RequestMapping("/student")
 public class StudentController {
 
-    private Map<Long, Student> students = new HashMap<>();
+    //PathVariable localhost:8080/student/id/student
+    //RequestParam localhost:8080/param?id=1&name="egesua" ikisi de uyar.
+
+
+    private Map<Long, Student> students = new HashMap<>(); //no database case.
 
     @PostMapping
     public Student save(@RequestBody Student student) {

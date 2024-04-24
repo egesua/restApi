@@ -14,3 +14,7 @@ public class Student {
         private int grade;
         private boolean isSuccessful;
 }
+
+
+//controller restapi olan kisim,
+//repository veritabanina dokunan kisim, service business logicin yer aldigi yer olucak.
